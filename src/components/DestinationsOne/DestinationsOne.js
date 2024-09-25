@@ -9,6 +9,15 @@ const DestinationsOne = () => {
     <section className="destinations-one">
       {/* <Container> */}
       <div className="destinations-one__img" style={{ paddingBottom: "20px" }}>
+        <div style={{ padding: "0 px" }}>
+          {" "}
+          <div
+            className="destinations-one__img"
+            style={{ paddingBottom: "20px" }}
+          >
+            <Image src={`./logos.png`} alt="ss" />
+          </div>
+        </div>
         <Image src={`./header1.png`} alt="ss" />
       </div>
       <Row className="masonary-layout">

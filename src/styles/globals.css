@@ -13,3 +13,8 @@ a {
 * {
   box-sizing: border-box;
 }
+.piamge {
+  display: block;
+  width: 350px;
+  height: 350px;
+}

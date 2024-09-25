@@ -11,10 +11,23 @@ const SingleDestination = ({ destination = {} }) => {
   const handleShow = () => setShow(true);
 
   return (
-    <Col xl={4} lg={4}>
+    <Col xl={2} lg={2}>
       <div className="destinations-one__single">
         <div className="destinations-one__img" onClick={handleShow}>
-          <Image src={`https://dev.veritech.mn/${image}`} alt="ss" />
+          <div
+            className="piamge"
+            style={{
+              backgroundImage: `url('https://dev.veritech.mn/${image}')`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          ></div>
+          {/* <Image
+            src={`https://dev.veritech.mn/${image}`}
+            alt="ss"
+            style={{ width: "180px", height: "180px", margin: "auto" }}
+          /> */}
         </div>
         <Modal
           show={show}
