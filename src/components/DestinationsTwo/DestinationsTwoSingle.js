@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Col, Image, Modal } from "react-bootstrap";
 import { Container, Row } from "react-bootstrap";
 
-const DestinationsTwoSingle = ({ destination = {}, col }) => {
+const DestinationsTwoSingle = ({ destination = {} }) => {
   const { image, title, tours, subTitle, col } = destination;
 
   const [show, setShow] = useState(false);
