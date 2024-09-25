@@ -16,18 +16,7 @@ import React from "react";
 const Home2 = () => {
   return (
     <Layout pageTitle="Home Two">
-      <BannerTwo />
-      <ThreeIconBox />
-      <PopularToursTwo />
-      <SingaporeTour />
-      <VideoTwo />
-      <CounterOne />
       <DestinationsTwo />
-      <AboutTwo />
-      <TourTypes />
-      <BrandTwo />
-      <NewsTwo />
-      <BookNow />
     </Layout>
   );
 };

@@ -68,7 +68,12 @@ const SingleDestination = ({ destination = {} }) => {
                       <Image
                         src={`./sideimage1.png`}
                         alt="ss"
-                        style={{ width: "450px", margin: "auto" }}
+                        style={{
+                          width: "450px",
+                          margin: "auto",
+                          // paddingLeft: "40px",
+                          display: "block",
+                        }}
                       />
                     </div>
                     <div>
